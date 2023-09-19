@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>HTML lecture</title>
+        <style>
+            h2{
+                text-align: center;
+                color: red;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+            .type your message{
+                color: bold;
+            }
+            form{
+                font-family: arial;
+            font-size: 20px;
+            text-decoration: underlinle;
+            letter-spacing: 3px;
+            text-transform: capitalize;
+            line-height: ;
+            }
+        </style>
+    </head>
+    <body bgcolor="tan">
+    <h2>Form tag</h2>
+    <form>
+        First name:<input type="text" placeholder="First name" required pattern="[a-z A-Z]{1,15}">
+        <br><br>
+        last name:<input type="text" placeholder="last name">
+        <br><br>
+        Email:<input type="email" placeholder="email">
+        <br><br>
+        Mobile:<input type="tel placeholder ="mobile number pattern="[0-9]{10}">
+        <br><br>
+        Birth date:<input type="date">
+        <br><br>
+        Password:<input type="password" placeholder="password">
+        <br><br>
+        Gender:<input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">female
+        <input type="radio" name="Gender">others
+        <br><br>
+        Website:<input type="url">
+        <br><br>
+        Time:<input type="time">
+        <br><br>
+        Age:<input type="number" min="16" max="60">
+        <br><br>
+        Country:<select>
+            <option>India</option>
+            <option>pakistan</option>
+            <option>sri-lanka</option>
+            <option>Bangladesh</option>
+        </select>
+        <br><br>
+        Type your message:<br>
+        <textarea cols="20" rows="5"></textarea>
+        <br><br>
+        <input type="reset" value="clear">
+        <input type="sumbit"value="register">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Food Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="food-menu">
+        <div class="food-item" onmouseover="showDescription(1)" onmouseout="hideDescription(1)">
+            <img src="food1.jpg" alt="Food 1">
+            <h2>Food Item 1</h2>
+            <p id="description1" class="description">Description of Food Item 1.</p>
+        </div>
+        <div class="food-item" onmouseover="showDescription(2)" onmouseout="hideDescription(2)">
+            <img src="food2.jpg" alt="Food 2">
+            <h2>Food Item 2</h2>
+            <p id="description2" class="description">Description of Food Item 2.</p>
+        </div>
+        <!-- Add more food items here -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
